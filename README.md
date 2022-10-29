@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](##)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-E_myXzykgR)
 - Live Site URL: [Add live site URL here](http://joaotextor.com/huddle-lp/)
 
 ## My process
