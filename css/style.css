@@ -14,8 +14,7 @@
 }
 
 html {
-  height: 100%;
-  width: 100vw;
+  height: 100vh;
 }
 
 /* ------------------------------------------------------- */
@@ -25,9 +24,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
-}
-body main {
-  height: 100%;
 }
 body main header img {
   margin: 2rem;
@@ -71,7 +67,7 @@ body main section article button:hover {
   color: white;
 }
 body main .socialIcons {
-  margin-top: 4rem;
+  margin-top: 2rem;
   gap: 0.8rem;
   display: flex;
   justify-content: center;
@@ -94,16 +90,23 @@ body main .socialIcons .socialIcon:hover {
 body footer {
   width: 100%;
   text-align: center;
-  position: absolute;
   display: block;
-  bottom: 2px;
+  margin-top: 10px;
 }
 body footer p {
   font-size: 1rem;
 }
+body footer p :-moz-any-link {
+  color: lightgray;
+  text-decoration: none;
+}
+body footer p :any-link {
+  color: lightgray;
+  text-decoration: none;
+}
 
 /* ------------------------------------------------------- */
-@media (min-width: 768px) {
+@media (min-width: 1130px) {
   body {
     background-image: url("../images/bg-desktop.svg");
     background-size: cover;
@@ -114,7 +117,7 @@ body footer p {
   }
   body main section {
     display: flex;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
   }
   body main section figure {
     width: 100%;
@@ -139,5 +142,6 @@ body footer p {
   }
   body footer {
     bottom: 10px;
+    position: absolute;
   }
 }/*# sourceMappingURL=style.css.map */

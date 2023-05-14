@@ -17,8 +17,8 @@
 }
 
 html {
-    height: 100%;
-    width: 100vw;
+    height: 100vh;
+    // width: 100vw;
 }
 
 /* ------------------------------------------------------- */
@@ -32,8 +32,6 @@ body {
     
     
     main {
-
-        height: 100%;
 
         header {
 
@@ -92,7 +90,7 @@ body {
         }
 
         .socialIcons {
-            margin-top: 4rem;
+            margin-top: 2rem;
             gap: 0.8rem;
             display: flex;
             justify-content: center;
@@ -121,12 +119,16 @@ body {
     footer {
         width: 100%;
         text-align: center;
-        position: absolute;
         display: block;
-        bottom: 2px;
+        margin-top: 10px;
 
         p {
             font-size: 1rem;
+
+            :any-link {
+                color: lightgray;
+                text-decoration: none;
+            }
         }
         
     }
@@ -136,7 +138,7 @@ body {
 
 /* ------------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 1130px) {
 
     body {
         background-image: url("../images/bg-desktop.svg");
@@ -155,7 +157,7 @@ body {
 
             section {
                 display: flex;
-                padding: 2rem 4rem;
+                padding: 1rem 4rem;
 
                 figure {
                     width: 100%;
@@ -193,6 +195,7 @@ body {
         footer {
 
             bottom: 10px;
+            position: absolute;
         }
 
     }
